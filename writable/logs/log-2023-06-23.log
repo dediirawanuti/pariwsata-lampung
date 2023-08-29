@@ -1,0 +1,153 @@
+INFO - 2023-06-23 04:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 04:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 05:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-23 06:04:22 --> mysqli_sql_exception: Column 'lat' cannot be null in C:\laragon\www\pesawaran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\pesawaran\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\laragon\www\pesawaran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\laragon\www\pesawaran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\laragon\www\pesawaran\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\laragon\www\pesawaran\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\pesawaran\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\pesawaran\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\pesawaran\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\pesawaran\app\Controllers\MapsController.php(162): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\pesawaran\system\CodeIgniter.php(934): App\Controllers\MapsController->store()
+#10 C:\laragon\www\pesawaran\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+#11 C:\laragon\www\pesawaran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\pesawaran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\pesawaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-06-23 06:04:22 --> Column 'lat' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `maps` (`title`, `category_id`, `lat`, `lng`, `desc`, `alamat`, `cover`, `status`) VALUES (\'Air Terjun Sinar Tiga\', \'8\', NULL, NULL, \'<p>Air Terjun Sinar Tiga bertempat di Dusun Sinar Tiga. Kamu akan merasakan perbedaan suasana saat memasuki hutan yang masih rapat dan rindang. Sebelum area hutan, kamu akan melewati kebun kopi milik warga. Saat memasuki hutan, kamu akan berjalan di antara pepohonan tinggi. </p><p>Air terjun sinar tiga memiliki jalur trakking yang dekat, karena rute jalan kaki dari dusun sinar tiga termasuk pendek, walaupun lokasinya menanjak tetapi, jalurnya termasuk ringan.<br></p><p>Ketinggian air terjun sekitar 30an meter membuatnya menjadi sebuah atraksi wisata yang indah dan suasana yang sejuk dan tenang menjadi hiburan tersendiri dan menjadi kegiatan \\\'healing forest\\\' yang menyenangkan.&nbsp;</p><p>Kamu akan di kenakan biaya tiket masuk yang harganya terjangkau, tiket di bandrol Rp 10.000/Orang. Ada loket di ujung dusun sinar tiga dan area parkir kendaraan.</p>\', \'Jl. Sinar Tiga, Harapan Jaya, Kec. Padang Cermin, Kabupaten Pesawaran, Lampung 35451\', \'1687500261_0b6f26f6001b232ddd7a.jpg\', \'publish\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `maps` (`title`, `category_id`, `lat`, `lng`, `desc`, `alamat`, `cover`, `status`) VALUES (\'Air Terjun Sinar Tiga\', \'8\', NULL, NULL, \'<p>Air Terjun Sinar Tiga bertempat di Dusun Sinar Tiga. Kamu akan merasakan perbedaan suasana saat memasuki hutan yang masih rapat dan rindang. Sebelum area hutan, kamu akan melewati kebun kopi milik warga. Saat memasuki hutan, kamu akan berjalan di antara pepohonan tinggi. </p><p>Air terjun sinar tiga memiliki jalur trakking yang dekat, karena rute jalan kaki dari dusun sinar tiga termasuk pendek, walaupun lokasinya menanjak tetapi, jalurnya termasuk ringan.<br></p><p>Ketinggian air terjun sekitar 30an meter membuatnya menjadi sebuah atraksi wisata yang indah dan suasana yang sejuk dan tenang menjadi hiburan tersendiri dan menjadi kegiatan \\\'healing forest\\\' yang menyenangkan.&nbsp;</p><p>Kamu akan di kenakan biaya tiket masuk yang harganya terjangkau, tiket di bandrol Rp 10.000/Orang. Ada loket di ujung dusun sinar tiga dan area parkir kendaraan.</p>\', \'Jl. Sinar Tiga, Harapan Jaya, Kec. Padang Cermin, Kabupaten Pesawaran, Lampung 35451\', \'1687500261_0b6f26f6001b232ddd7a.jpg\', \'publish\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `maps` (`title`, `category_id`, `lat`, `lng`, `desc`, `alamat`, `cover`, `status`) VALUES (\'Air Terjun Sinar Tiga\', \'8\', NULL, NULL, \'<p>Air Terjun Sinar Tiga bertempat di Dusun Sinar Tiga. Kamu akan merasakan perbedaan suasana saat memasuki hutan yang masih rapat dan rindang. Sebelum area hutan, kamu akan melewati kebun kopi milik warga. Saat memasuki hutan, kamu akan berjalan di antara pepohonan tinggi. </p><p>Air terjun sinar tiga memiliki jalur trakking yang dekat, karena rute jalan kaki dari dusun sinar tiga termasuk pendek, walaupun lokasinya menanjak tetapi, jalurnya termasuk ringan.<br></p><p>Ketinggian air terjun sekitar 30an meter membuatnya menjadi sebuah atraksi wisata yang indah dan suasana yang sejuk dan tenang menjadi hiburan tersendiri dan menjadi kegiatan \\\'healing forest\\\' yang menyenangkan.&nbsp;</p><p>Kamu akan di kenakan biaya tiket masuk yang harganya terjangkau, tiket di bandrol Rp 10.000/Orang. Ada loket di ujung dusun sinar tiga dan area parkir kendaraan.</p>\', \'Jl. Sinar Tiga, Harapan Jaya, Kec. Padang Cermin, Kabupaten Pesawaran, Lampung 35451\', \'1687500261_0b6f26f6001b232ddd7a.jpg\', \'publish\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `maps` (`title`, `category_id`, `lat`, `lng`, `desc`, `alamat`, `cover`, `status`) VALUES (:title:, :category_id:, :lat:, :lng:, :desc:, :alamat:, :cover:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\MapsController.php(162): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-23 06:11:00 --> Undefined variable $maps
+in APPPATH\Views\admin\maps\detail.php on line 18.
+ 1 APPPATH\Views\admin\maps\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maps', 'C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/maps/detail', [], true)
+ 5 APPPATH\Controllers\MapsController.php(110): view('admin/maps/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->detail('84')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-23 06:11:13 --> Undefined array key "gmaps"
+in APPPATH\Views\admin\maps\detail.php on line 18.
+ 1 APPPATH\Views\admin\maps\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gmaps"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/maps/detail', [], true)
+ 5 APPPATH\Controllers\MapsController.php(110): view('admin/maps/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->detail('84')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-23 06:12:28 --> Undefined array key "gmaps"
+in APPPATH\Views\admin\maps\detail.php on line 18.
+ 1 APPPATH\Views\admin\maps\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gmaps"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/maps/detail', [], true)
+ 5 APPPATH\Controllers\MapsController.php(110): view('admin/maps/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->detail('84')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-23 06:12:39 --> Undefined array key "gmaps"
+in APPPATH\Views\admin\maps\detail.php on line 18.
+ 1 APPPATH\Views\admin\maps\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gmaps"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/maps/detail', [], true)
+ 5 APPPATH\Controllers\MapsController.php(110): view('admin/maps/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->detail('84')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-23 06:13:32 --> [DEPRECATED] ucwords(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\maps\detail.php on line 18.
+ 1 APPPATH\Views\admin\maps\detail.php(18): ucwords(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\admin\\maps\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/maps/detail', [], true)
+ 5 APPPATH\Controllers\MapsController.php(110): view('admin/maps/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MapsController->detail('84')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-23 06:14:42 --> [DEPRECATED] ucwords(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\frontend\show.php on line 20.
+ 1 APPPATH\Views\frontend\show.php(20): ucwords(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/show', [], true)
+ 5 APPPATH\Controllers\HomeController.php(74): view('frontend/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->show('229a9a360de28ce9cd528fa2ebac6c602757d03e33c1e887f4f477583b2a409ea5772b4c605afaba5ea43ab617bf420aeb78dd454b71d39f3041960c32de16ba776eb0bafb6e688a4c516b009b39262f2958')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-23 06:15:24 --> [DEPRECATED] ucwords(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\frontend\show.php on line 20.
+ 1 APPPATH\Views\frontend\show.php(20): ucwords(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/show', [], true)
+ 5 APPPATH\Controllers\HomeController.php(74): view('frontend/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->show('229a9a360de28ce9cd528fa2ebac6c602757d03e33c1e887f4f477583b2a409ea5772b4c605afaba5ea43ab617bf420aeb78dd454b71d39f3041960c32de16ba776eb0bafb6e688a4c516b009b39262f2958')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-23 06:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-23 06:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

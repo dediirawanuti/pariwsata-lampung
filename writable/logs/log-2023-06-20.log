@@ -1,0 +1,169 @@
+INFO - 2023-06-20 12:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-20 12:58:25 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\general_helper.php on line 148.
+ 1 APPPATH\Helpers\general_helper.php(148): explode('/', null)
+ 2 APPPATH\Views\layout\admin\navbar.php(15): breadcrumbs()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\layout\\admin\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 6 APPPATH\Views\layout\admin\master.php(100): CodeIgniter\View\View->include('layout/admin/navbar')
+ 7 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\layout\\admin\\master.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+11 APPPATH\Controllers\DashboardController.php(33): view('admin/dashboard', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 12:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 12:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-20 12:58:43 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\general_helper.php on line 148.
+ 1 APPPATH\Helpers\general_helper.php(148): explode('/', null)
+ 2 APPPATH\Views\layout\admin\navbar.php(15): breadcrumbs()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\layout\\admin\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 6 APPPATH\Views\layout\admin\master.php(100): CodeIgniter\View\View->include('layout/admin/navbar')
+ 7 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\layout\\admin\\master.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+11 APPPATH\Controllers\DashboardController.php(33): view('admin/dashboard', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 12:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-20 13:00:49 --> [DEPRECATED] ucwords(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\frontend\show.php on line 20.
+ 1 APPPATH\Views\frontend\show.php(20): ucwords(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/show', [], true)
+ 5 APPPATH\Controllers\HomeController.php(78): view('frontend/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->show('06700508bc459255a27b80ad17ef494454c330a2970563a1252ae3b4279386396c38422f4a57a218a8c48710e87543308ff8e0e275d4c8dea9fe994d545e6997494d2e5e08b737bc982ca06af43b80120863')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-20 13:01:52 --> [DEPRECATED] ucwords(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\frontend\show.php on line 20.
+ 1 APPPATH\Views\frontend\show.php(20): ucwords(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/show', [], true)
+ 5 APPPATH\Controllers\HomeController.php(78): view('frontend/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->show('06700508bc459255a27b80ad17ef494454c330a2970563a1252ae3b4279386396c38422f4a57a218a8c48710e87543308ff8e0e275d4c8dea9fe994d545e6997494d2e5e08b737bc982ca06af43b80120863')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 13:42:12 --> Undefined array key "alamat"
+in APPPATH\Views\frontend\profile.php on line 10.
+ 1 APPPATH\Views\frontend\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH\Controllers\HomeController.php(128): view('frontend/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 13:42:34 --> Undefined array key "alamat"
+in APPPATH\Views\frontend\profile.php on line 10.
+ 1 APPPATH\Views\frontend\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH\Controllers\HomeController.php(128): view('frontend/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 13:43:01 --> Undefined array key "last_login"
+in APPPATH\Views\frontend\profile.php on line 11.
+ 1 APPPATH\Views\frontend\profile.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "last_login"', 'C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH\Controllers\HomeController.php(128): view('frontend/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 13:49:53 --> Undefined variable $tentang
+in APPPATH\Views\frontend\tentang.php on line 11.
+ 1 APPPATH\Views\frontend\tentang.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang', 'C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\tentang.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\tentang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/tentang', [], true)
+ 5 APPPATH\Controllers\HomeController.php(119): view('frontend/tentang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->tentang()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 13:50:36 --> Undefined variable $tentang
+in APPPATH\Views\frontend\tentang.php on line 11.
+ 1 APPPATH\Views\frontend\tentang.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang', 'C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\tentang.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pesawaran\\app\\Views\\frontend\\tentang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/tentang', [], true)
+ 5 APPPATH\Controllers\HomeController.php(119): view('frontend/tentang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomeController->tentang()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\pesawaran\\public\\index.php')
+INFO - 2023-06-20 13:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

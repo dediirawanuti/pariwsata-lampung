@@ -1,0 +1,154 @@
+.col-hero-inside-wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+
+  color: #fff;
+  padding: 1em;
+
+  /* border-radius:40px; */
+  /* position: relative; */
+  /* margin-top:35%;
+  margin-left:2%; */
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-play {
+  transition: transform 0.5s ease;
+  max-width: 150px;
+}
+.img-play:hover {
+  transform: scale(1.05);
+}
+
+.divimagecover{
+  min-height:640px;
+}
+
+.divmap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.divmap>* {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cardhome {
+  transition: transform .5s ease;
+  box-shadow: 0px 7px 15px 3px rgba(0,0,0,0.15);
+-webkit-box-shadow: -1px 7px 15px 3px rgba(0,0,0,0.15);
+-moz-box-shadow: -1px 7px 15px 3px rgba(0,0,0,0.15);
+/* margin-bottom:20px; */
+}
+
+.cardhome:hover {
+  transform: scale(1.05);
+}
+
+.card-quality {
+  position: absolute;
+  top:10px;
+  left: 10px;
+  padding:2px 5px;
+  background: #FF4A52;
+  color: #fff;
+  font-size: 0.7em;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.card-title {
+  font-size: 0.875em;
+  min-height: 2.2em;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+.card-title-province {
+font-size: 0.875em;
+min-height: 2.2em;
+font-weight: 900;
+color: #333;
+text-align: center;
+}
+.card-text {
+  font-size: 0.9em;
+  color: #ccc;
+  height: 2em;
+  text-align: center;
+}
+
+.card-footer {
+  max-height: 50px;
+  color: #999;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-by {
+  --bs-text-opacity: 1;
+  color: #a9a9a9 !important;
+  font-size: 0.85em;
+  /* max-width: 70px; */
+  display: inline-block;
+}
+.text-by a {
+  color:#a9a9a9;
+  text-decoration: none;
+}
+
+
+/* Navbar yang tersembunyi saat di-scroll */
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Navbar yang muncul kembali saat scroll naik ke atas */
+.navbar-visible {
+  transform: translateY(0);
+}
+
+/* Loading Screen */
+@keyframes zoom-in-out {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.5);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.loading-logo {
+  animation: zoom-in-out 1.2s ease-in-out infinite;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+
+.navbar-item.active {
+  color: #1c64f2;
+}
